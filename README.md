@@ -9,7 +9,8 @@ python 3.6 or higher<br>
 <hr>
 
 <h2>Run Application<h2>
-`python manage.py runserver`
+  
+  `python manage.py runserver`
 
 <h2>Change the following<h2>
 
