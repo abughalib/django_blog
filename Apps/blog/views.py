@@ -7,11 +7,12 @@ from django.views.generic import (
     ListView, DetailView,
     CreateView, UpdateView, DeleteView
 )
+import Apps.blog.blog_api as blogapi
 
 
 class PostListView(ListView):
     model = Post
-    template_name = 'blog/home.html'
+    template_name = 'blog/blog_home.html'
     # Generic convention -> <app>/<model>_<viewType>.html
     context_object_name = 'posts'
     ordering = ['-date_posted']
@@ -70,3 +71,8 @@ class PostDeleteView(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
 
 def about(request):
     return render(request, 'blog/about.html', {'title': 'About'})
+
+
+def blog_api_create(request):
+    blogapi.blog_api_generate()
+    return render(request, 'blog/api.json')

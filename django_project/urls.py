@@ -3,7 +3,8 @@ from django.contrib.auth import views as auth_views
 from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
-from users import views as user_views
+from Apps.users import views as user_views
+from Apps.Home import views as home_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -21,7 +22,9 @@ urlpatterns = [
     path('password-reset-confirm/<uidb64>/<token>', auth_views.PasswordResetDoneView.as_view(
         template_name='users/password_reset_confirm.html'), name='password_reset_confirm'),
 
-    path('', include('blog.urls')),
+    path('', home_views.home, name='home'),
+
+    path('blog/', include('Apps.blog.urls')),
     path('test/', user_views.test, name='test'),
 ]
 

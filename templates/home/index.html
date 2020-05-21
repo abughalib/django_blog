@@ -1,0 +1,185 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'home/style/main.css' %}"}>
+    <link rel="stylesheet" href="{% static 'home/style/content.css' %}">
+</head>
+
+<body>
+<header>
+    <nav-c class="nav-c">
+        <div class="container-c">
+            <div class="logo">
+                <a href="{% url 'home' %}">Abu Ghalib</a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="nav-clinks">
+                    <li><a href="{% url 'blog-home' %}">Blog</a></li>
+                    <li><a href="{% url 'blog-about' %}">About</a></li>
+                </ul>
+            </div>
+            <span class="nav-cTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav-c>
+</header>
+    <section class="home">
+    </section>
+    <div style="height: 1000px">
+        <p class="myP">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis
+            placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem
+            aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam,
+            dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo
+            itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam Lorem, ipsum dolor sit amet consectetur adipisicing
+            elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi
+            harum eos voluptatibus animi labore officiis minus laboriosam
+        </p>
+    </div>
+
+    <header>
+        <h1 class="section-2-header">The Stardards of Awesomeness</h1>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="{% static 'home/images/icon.jpg' %}" >
+                    </div>
+                    <label>Chat with Me</label>
+                    <p>Here are few thing about me
+                        And I have to do many thing
+                        that was not very appealing
+                        to me or the people around
+                        me. So I recided to run.
+                    </p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="{% static 'home/images/icon.jpg' %}" >
+                    </div>
+                    <label>Learn to code</label>
+                    <p>Here are few thing about me
+                        And I have to do many thing
+                        that was not very appealing
+                        to me or the people around
+                        me. So I recided to run.
+                    </p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="{% static 'home/images/icon.jpg' %}" >
+                    </div>
+                    <label>Build an empire</label>
+                    <p>Here are few thing about me
+                        And I have to do many thing
+                        that was not very appealing
+                        to me or the people around
+                        me. So I recided to run.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <button class="learnMore" type="button">Learn more</button>
+        </div>
+    </div>
+<hr style="color: gray;">
+<div class="container">
+    <div class="row">
+            <div class="col-7">
+                <article>
+                    <p> When we speak of free software, we are referring to freedom, not
+                    price.  Our General Public Licenses are designed to make sure that you
+                    have the freedom to distribute copies of free software (and charge for
+                    them if you wish), that you receive source code or can get it if you
+                    want it, that you can change the software or use pieces of it in new
+                    free programs, and that you know you can do these things.</p>
+                </article>
+            </div>
+            <div class="col-5">
+                <div class="slopeIcon">
+                    <img src="{% static 'home/images/ios.jpg' %}">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="foot-1">
+    <div class="row">
+        <div class="col-3">
+            <h1>Company</h1>
+            <ul>
+                <li>About</li>
+                <li>Blogs</li>
+                <li>Careers</li>
+            </ul>
+        </div>
+        <div class="col-3">
+            <h1>Company</h1>
+            <ul>
+                <li>About</li>
+                <li>Blogs</li>
+                <li>Careers</li>
+            </ul>
+        </div>
+        <div class="col-3">
+            <h1>Company</h1>
+            <ul>
+                <li>About</li>
+                <li>Blogs</li>
+                <li>Careers</li>
+            </ul>
+        </div>
+        <div class="col-3">
+            <h1>Company</h1>
+            <ul>
+                <li>About</li>
+                <li>Blogs</li>
+                <li>Careers</li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+
+
+    <!-- Google Api Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav-c').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav-c').removeClass('affix');
+            }
+        });
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="{% static 'home/style/main.js' %}"></script>
+
+</body>
+
+</html>
