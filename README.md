@@ -1,14 +1,20 @@
-# Django Blog application
+# Django Blog Application
 
 For preview -> [goto preview folder](preview/)
 
-### Requirement<br><hr>
+## Features
+ * Create Blog Post<br>
+ * Post Detail<br>
+ * Sort by author<br>
+ * User Sign In and Sign Up.<br>
+ * User Profile<br>
+
+### Requirement<br>
 **python 3.6 or higher** <br>
 `pip install django`<br>
 `pip install pillow`<br>
-<hr>
 
-#### Run Application <br>
+### Run Application <br>
   
   `python manage.py runserver`
 
