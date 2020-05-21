@@ -3,7 +3,7 @@
 For preview -> [goto preview folder](preview/)
 
 ### Requirement<br><hr>
-**python 3.6 or higher <br>
+**python 3.6 or higher** <br>
 `pip install django`<br>
 `pip install pillow`<br>
 <hr>
@@ -12,7 +12,7 @@ For preview -> [goto preview folder](preview/)
   
   `python manage.py runserver`
 
-**Change the following <br>
+**Change the following** <br>
 
 SECRET KEY in settings.py
 
