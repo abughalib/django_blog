@@ -12,7 +12,7 @@ For preview -> [goto preview folder](preview/)
   
   `python manage.py runserver`
 
-**Change the following** <br>
+## Change the following <br>
 
 SECRET KEY in settings.py
 
