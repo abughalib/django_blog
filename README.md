@@ -27,10 +27,12 @@ SECRET KEY in settings.py
 
 **To use password reset using email**
 
-`EMAIL_HOST = 'smtp.gmail.com'`<br>
-`EMAIL_PORT = '587'`<br>
-`EMAIL_USE_TLS = True`<br>
-`EMAIL_HOST_USER = 'email'`<br>
-`EMAIL_HOST_PASSWORD = os.environ.get('email_pass')`
+```
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = '587'
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'email'
+EMAIL_HOST_PASSWORD = os.environ.get('email_pass')
+```
 
 **Alternately you can use WebApi for this purpose.**
