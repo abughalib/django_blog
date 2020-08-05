@@ -11,8 +11,10 @@ For preview -> [goto preview folder](preview/)
 
 ### Requirement<br>
 **python 3.6 or higher** <br>
-`pip install django`<br>
-`pip install pillow`<br>
+```pip install django
+   pip install pillow
+   pip install django-crispy-forms
+```
 
 ### Run Application <br>
   
